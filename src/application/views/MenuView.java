@@ -169,7 +169,6 @@ public class MenuView extends javax.swing.JFrame {
     private void initComponents() {
 
         Home = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         Sidebar = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
@@ -185,9 +184,6 @@ public class MenuView extends javax.swing.JFrame {
 
         Home.setPreferredSize(new java.awt.Dimension(700, 700));
         Home.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/dasboard-petshop.jpg"))); // NOI18N
-        Home.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -160, 700, 700));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -596,7 +592,6 @@ public class MenuView extends javax.swing.JFrame {
     private javax.swing.JPanel MainContent;
     private javax.swing.JPanel Sidebar;
     private javax.swing.JLabel alternatif;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
